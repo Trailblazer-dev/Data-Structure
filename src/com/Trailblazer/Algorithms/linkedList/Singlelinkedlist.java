@@ -74,6 +74,18 @@ public class Singlelinkedlist {
 
         sll.display();
         System.out.println("Length of the node list is "+sll.length());
+//I want to inset a new node at the beginning of the node list
+        ListNode ultimate=new ListNode(200);
+        ultimate.next=sll.head;
+        sll.head=ultimate;
 
+        System.out.println("Updated node list ");
+        sll.display();
+//        let me add another linked list
+        ListNode premium = new ListNode(20);
+        premium.next=ultimate;
+        sll.head=premium;
+        System.out.println("Updated node list ");
+        sll.display();
     }
 }
