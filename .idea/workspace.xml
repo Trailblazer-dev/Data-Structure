@@ -5,19 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="47a64658-e739-492d-b527-873ce4f0ea25" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Data Structures And Algorithms.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Trailblazer/Algorithms/ArrayUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Trailblazer/Algorithms/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Trailblazer/Algorithms/MaxValue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Trailblazer/Algorithms/MinValue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Trailblazer/Algorithms/Palindrome.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Trailblazer/Algorithms/ReverseArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Trailblazer/Algorithms/linkedList/Singlelinkedlist.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Trailblazer/Algorithms/linkedList/Singlelinkedlist.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +24,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Trailblazer-dev&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;git@github.com:Trailblazer-dev/Data-Structure.git&quot;,
+    &quot;accountId&quot;: &quot;3c545c68-97a7-435e-b086-20b15f23c01a&quot;
+  }
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
 }</component>
@@ -53,9 +54,10 @@
     "Application.MinValue.executor": "Run",
     "Application.Palindrome.executor": "Run",
     "Application.ReverseArray.executor": "Run",
+    "Application.Singlelinkedlist.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/home/remote/IdeaProjects/Number guessing game",
     "onboarding.tips.debug.path": "/home/remote/IdeaProjects/Data Structures And Algorithms/src/Main.java"
