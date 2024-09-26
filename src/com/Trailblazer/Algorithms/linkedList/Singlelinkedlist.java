@@ -1,5 +1,6 @@
 package com.Trailblazer.Algorithms.linkedList;
 
+import javax.swing.event.ListDataEvent;
 import java.util.List;
 
 /**
@@ -179,7 +180,40 @@ public class Singlelinkedlist {
         return active;
     }
 
-
+    /**
+     * This is method used to search for a value inside the single linked list
+     * @param head
+     * @param searchKey
+     * @return a boolean value
+     */
+    public boolean find(ListNode head,int searchKey){
+        if(head==null){
+            return false;
+        }
+        ListNode current =head;
+        while(current !=null){
+            if(current.data == searchKey){
+                return true;
+            }
+            current = current.next;
+        }
+        return false;
+    }
+    public ListNode reverse(ListNode head){
+        if(head==null){
+            return head;
+        }
+        ListNode current =head;
+        ListNode previous=null;
+        ListNode next= null;
+        while(current!=null){
+            next= current.next;
+            current.next=previous;
+            previous=current;
+            current=next;
+        }
+        return previous;
+    }
     public static void main(String[] args) {
         Singlelinkedlist sll = new Singlelinkedlist();//instance of the class
         sll.head = new ListNode(10);
@@ -223,6 +257,14 @@ public class Singlelinkedlist {
         sll.display();
         System.out.println("The delete node linked list is "+sll.delete(1).data);
         sll.display();
+        Singlelinkedlist singly= new Singlelinkedlist();
+        if(singly.find(sll.head,1)){
+            System.out.println("Search Key Found !!!");
+        }
+        else{
+            System.out.println("Search Key not found !!!");
+        }
+
 
     }
 }
